@@ -1,0 +1,19 @@
+{
+    "_comment_PROJECT_ROOT": "项目根目录或代码存放目录",
+    "PROJECT_ROOT": "./YourProjectPath",
+
+    "_comment_OUTPUT_DIR": "输出生成文件的目录，默认为 ./Code 文件夹",
+    "OUTPUT_DIR": "./Code",
+
+    "_comment_ALL_CODE_FILE": "合并后的代码文件名称",
+    "ALL_CODE_FILE": "All_code.txt",
+
+    "_comment_OUTPUT_FIRST_DOC": "保存前1500行代码的文件名称",
+    "OUTPUT_FIRST_DOC": "first_1500_lines.docx",
+
+    "_comment_OUTPUT_LAST_DOC": "保存最后1500行代码的文件名称",
+    "OUTPUT_LAST_DOC": "last_1500_lines.docx",
+
+    "_comment_FILE_TYPES": "要处理的代码文件类型",
+    "FILE_TYPES": [".ts", ".ets", ".js", ".json", ".json5"]
+}
