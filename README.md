@@ -95,6 +95,7 @@ python code_merge_tool.py
 ├── config.json                     # 默认配置文件模板
 ├── config_file.json                # 用户自定义配置文件（按需修改）
 ├── code_merge_tool.py              # 主工具脚本
+├── .gitattributes                  # 不必理会
 ├── Code/                           # 默认输出目录
 │   ├── All_code.txt                # 合并后的所有代码文件
 │   ├── first_1500_lines.docx       # 前1500行代码
