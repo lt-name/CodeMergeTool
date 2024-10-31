@@ -128,7 +128,7 @@ python code_merge_tool.py
 ## ⭐️ 支持我们
 
 如果你觉得这个项目对你有帮助，欢迎给我们一个 ⭐️ Star！这将帮助我们获得更多的支持，也能激励我们持续改进这个项目。
-点击右上角的 **Star** 按钮或点击 [这里](https://github.com/yourusername/yourrepository/stargazers) ⭐️！
+点击右上角的 **Star** 按钮⭐️！
 
 ------
 
