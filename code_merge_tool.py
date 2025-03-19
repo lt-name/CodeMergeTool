@@ -45,6 +45,7 @@ file_types = config["FILE_TYPES"]
 os.makedirs(output_dir, exist_ok=True)
 
 # 正则表达式匹配注释和空行
+single_line_start= r'//.*'                                # 匹配行后注释开始
 single_line_comment = re.compile(r'^\s*//')               # 匹配单行注释
 multi_line_comment_start = re.compile(r'^\s*/\*')         # 匹配多行注释的开始
 multi_line_comment_end = re.compile(r'.*\*/\s*$')         # 匹配多行注释的结束
@@ -80,6 +81,9 @@ with open(all_code_file, 'w', encoding='utf-8') as outfile:
                             # 跳过单行注释
                             if single_line_comment.match(line):
                                 continue
+
+                            # 去除行后注释
+                            line = re.sub(single_line_start, '', line)
 
                             # 将非注释、非空行写入 All_code 文件
                             outfile.write(line)
